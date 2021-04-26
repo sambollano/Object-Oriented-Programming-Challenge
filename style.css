@@ -1,12 +1,13 @@
 .jumbotron {
   padding: 30px;
   text-align: center;
-  background:tan;
+  background:lightgoldenrodyellow;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .text-success {
     color: black;
     columns:inherit;
+    background-color: lightblue;
 }
 p {
     margin-top: 0;
@@ -22,6 +23,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    background-color: lightblue;
 }
 
 .card {
