@@ -31,4 +31,4 @@ const Questions = () => {
             type: 'input',
             message: 'EmployeeEmail',
             name: 'Email',
-        },
+        )]};
