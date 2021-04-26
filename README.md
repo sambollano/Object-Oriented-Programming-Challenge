@@ -14,9 +14,6 @@ We Are Making a Team Generater.
 * Inquirer
 * Jest
 
-## Website
-* https://github.com/sambollano/Object-Oriented-Programming-Challenge/blob/develop/README.md
-
 ## Contribution
 Made with ❤️ by Samantha Arellano
 
