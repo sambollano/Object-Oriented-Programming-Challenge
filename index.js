@@ -23,6 +23,3 @@ const Questions = () => {
             message: 'EmployeeId',
             name: 'Id',
         }
-        
-    ])
-}
