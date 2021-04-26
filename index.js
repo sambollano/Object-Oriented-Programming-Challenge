@@ -7,19 +7,28 @@ const path = require ("path");
 const { reject } = require("lodash");
 const { reset } = require("ansi-styles");
 
+const { run } = require("jest");
+
+const src = path.resolve("src");
+const distPath = path.join(src, "index.html");
+
 let employeeArr = [];
 
 const Questions = () => {
-    return new Promise((reset, reject) => {
+    return new Promise((res, rej) => {
     Inquirer.prompt([
         {
-            type: 'List',
-            message: 'EmployeeStatus',
-            name: 'EmployeeName',
-            choices: [Employee, Engineer, Manager, Intern]
+            type: 'input',
+            message: 'EmployeeName',
+            name: 'Name',
         },
         {
-            type: 'list',
+            type: 'input',
             message: 'EmployeeId',
             name: 'Id',
-        }
+        },
+        {
+            type: 'input',
+            message: 'EmployeeEmail',
+            name: 'Email',
+        },
