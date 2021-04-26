@@ -1,15 +1,15 @@
-const Employee = require ("./lib/Employee.js");
 const Engineer = require ("./lib/Engineer.js");
 const Intern = require ("./lib/Intern.js");
 const Manager = require ("./lib/Manager.js");
-const Inquirer = require ('./lib/Inquirer')
+const Inquirer = require ('./lib/Inquirer');
+const fs = require ("fs");
 
 let employeeArr = [];
 
-const initialQuestion = () => {
+const Questions = () => {
     Inquirer.prompt([
         {
-            Type: 'Text',
+            Type: 'List',
             Message: 'EmployeeStatus',
             Name: 'EmployeeName',
             Choices: [Employee, Engineer, Manager, Intern]

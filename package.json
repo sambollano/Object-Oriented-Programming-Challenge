@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "inquirer": "^8.0.0",
     "moment": "^2.29.1"
   },
   "name": "object-oriented-programming-challenge",
@@ -9,7 +10,6 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/sambollano/Object-Oriented-Programming-Challenge/issues"
   },
-  "homepage": "https://github.com/sambollano/Object-Oriented-Programming-Challenge#readme"
+  "homepage": "https://github.com/sambollano/Object-Oriented-Programming-Challenge#readme",
+  "keywords": []
 }
