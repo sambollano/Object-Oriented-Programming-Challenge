@@ -1,7 +1,12 @@
-
+.jumbotron {
+  padding: 30px;
+  text-align: center;
+  background:seashell;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .text-success {
     color: black;
-    columns:auto;
+    columns:inherit;
 }
 p {
     margin-top: 0;
