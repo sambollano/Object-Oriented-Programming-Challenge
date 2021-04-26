@@ -23,11 +23,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.card {
-    background-color: white;
-    text-align: left;
-    color: black;
-}
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -41,16 +37,12 @@ p {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Staatliches', sans-serif;
-}
-.h2, h2 {
-    font-size: 2rem;
-}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
+    box-sizing:;
 }
 h2 {
     font-size: 1.5em;
@@ -86,7 +78,8 @@ html {
     box-sizing: border-box;
 }
 .columns {
-  column-count: 3;
-  column-gap: 40px;
-  column-rule: 4px double #ff00ff;
+    column-count: 5;
+    column-gap: 40px;
+    column-rule: 4px double #ff00ff;
+    text-align: center;
 }
