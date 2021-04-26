@@ -42,7 +42,7 @@ p {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    box-sizing:;
+    box-sizing:border-box;
 }
 h2 {
     font-size: 1.5em;
