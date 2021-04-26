@@ -24,5 +24,6 @@
     "url": "https://github.com/sambollano/Object-Oriented-Programming-Challenge/issues"
   },
   "homepage": "https://github.com/sambollano/Object-Oriented-Programming-Challenge#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {}
 }
