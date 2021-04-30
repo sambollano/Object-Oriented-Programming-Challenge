@@ -12,7 +12,12 @@ const { run } = require("jest");
 const src = path.resolve("src");
 const distPath = path.join(src, "index.html");
 
-let employeeArr = [];
+function Game() {
+    this.roundNumber = 0;
+    this.isPlayerTurn = false;
+    this.enemies = [];
+    this.currentEnemy;
+    this.player;
 
 const Questions = () => {
     return new Promise((res, rej) => {
