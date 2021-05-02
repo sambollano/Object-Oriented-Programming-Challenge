@@ -1,9 +1,9 @@
-const Engineer = require ("./lib/Engineer.js");
-const Intern = require ("./lib/Intern.js");
-const Manager = require ("./lib/Manager.js");
-const Inquirer = require ('./lib/Inquirer');
-const Fs = require ("fs");
-const path = require ("path");
+const Engineer = require("./lib/Engineer.js");
+const Intern = require("./lib/Intern.js");
+const Manager = require("./lib/Manager.js");
+const Inquirer = require("./lib/Inquirer");
+const Fs = require("fs");
+const path = require("path");
 const { reject } = require("lodash");
 const { reset } = require("ansi-styles");
 
@@ -13,27 +13,31 @@ const src = path.resolve("src");
 const distPath = path.join(src, "index.html");
 
 function Game() {
-    this.roundNumber = 0;
-    this.isPlayerTurn = false;
-    this.enemies = [];
-    this.currentEnemy;
-    this.player;
+  this.roundNumber = 0;
+  this.isPlayerTurn = false;
+  this.enemies = [];
+  this.currentEnemy;
+  this.player;
 
-const Questions = () => {
+  const Questions = () => {
     return new Promise((res, rej) => {
-    Inquirer.prompt([
-        {
-            type: 'input',
-            message: 'EmployeeName',
-            name: 'Name',
+      Inquirer
+        .prompt([{
+          type: "input",
+          message: "EmployeeName",
+          name: "Name",
         },
         {
-            type: 'input',
-            message: 'EmployeeId',
-            name: 'Id',
+          type: "input",
+          message: "EmployeeId",
+          name: "Id",
         },
         {
-            type: 'input',
-            message: 'EmployeeEmail',
-            name: 'Email',
-        )]};
+          type: "input",
+          message: "EmployeeEmail",
+          name: "Email",
+        },
+      ]);
+    });
+  };
+}

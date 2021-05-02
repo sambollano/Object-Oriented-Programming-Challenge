@@ -6,14 +6,15 @@
     "moment": "^2.29.1"
   },
   "name": "object-oriented-programming-challenge",
-  "description": "Module 10:\r Team Profile Generator",
+  "description": "Module 10: Team Profile Generator",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
