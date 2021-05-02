@@ -2,5 +2,6 @@
 
 const (member.role = 'Manager') {
 
-    <class=
+    <figure class= "columns"
+    <div class= "input"
 }
