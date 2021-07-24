@@ -1,4 +1,4 @@
-const Employee = require("../lib/Employee");
+
 const intern = require("./lib/Intern");
 
 test('Should set school using constructor', () => {
