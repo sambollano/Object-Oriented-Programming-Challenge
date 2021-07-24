@@ -2,7 +2,7 @@
   "dependencies": {
     "i": "^0.3.6",
     "inquire": "^0.4.8",
-    "inquirer": "^8.0.0",
+    "inquirer": "^8.1.2",
     "moment": "^2.29.1"
   },
   "name": "object-oriented-programming-challenge",
