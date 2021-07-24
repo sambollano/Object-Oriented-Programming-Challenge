@@ -14,6 +14,8 @@ We Are Making a Team Generater.
 * Inquirer
 * Jest
 
+## IMG
+
 ## Contribution
 Made with ❤️ by Samantha Arellano
 

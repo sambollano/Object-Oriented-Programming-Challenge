@@ -4,13 +4,17 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 
+// Empty employees array for new team members
 const employees = [];
 
+// Initialize the App function
 function init() {
-    htmlHead();
-    promptsManager();
-    }
-    function promptsManager() {
+htmlHead();
+promptsManager();
+}
+
+// Manager Questions function
+function promptsManager() {
   inquirer
     .prompt([
       {
