@@ -1,3 +1,19 @@
-const Engineer = require('../lib/Engineer.js');
+const Engineer = require("../lib/Engineer");
 
-jest.mock('../lib/Engineer.js');
+test("Can set GitHUb account via constructor", () => {
+  const testValue = "GitHubUser";
+  const e = new Engineer("Sean", 1, "test@test.com", testValue);
+  expect(e.github).toBe(testValue);
+});
+
+test("getRole() should return \"Engineer\"", () => {
+  const testValue = "Engineer";
+  const e = new Engineer("Taylor", 1, "test@test.com", "GitHubUser");
+  expect(e.getRole()).toBe(testValue);
+});
+
+test("Can get GitHub username via getGithub()", () => {
+  const testValue = "GitHubUser";
+  const e = new Engineer("Tommy", 1, "test@test.com", testValue);
+  expect(e.getGithub()).toBe(testValue);
+});

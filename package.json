@@ -3,7 +3,8 @@
     "i": "^0.3.6",
     "inquire": "^0.4.8",
     "inquirer": "^8.1.2",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "urix": "^0.1.0"
   },
   "name": "object-oriented-programming-challenge",
   "description": "Module 10: Team Profile Generator",
